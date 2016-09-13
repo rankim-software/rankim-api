@@ -11,7 +11,7 @@ Direitos reservados à Rankim Soluções de Software Ltda.
 * Extensões do PHP "php_curl" e "php_openssl"
 * Apache 2.2+
 * Apache Mod Rewrite ativo (.htaccess) 
-* Mysql versão 5+
+* MySQL versão 5+
 
 ### Use via composer
 
@@ -43,7 +43,7 @@ if ($srv->getError()) {
 
 A API deverá ser instalada em uma rota pública acessível via **URL**. Após validação com a função "$srv->run()", o endereço da API instalada deverá ser configurado na *plataforma Rankim*, em integrações.
 
-### Parâmetro da instância da classe
+### Parâmetros da instância da classe
 
 Tradução dos campos retornados na consulta das ofertas selecionadas do estoque.
 
