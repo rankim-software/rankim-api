@@ -20,11 +20,11 @@ class Api {
     }
 
     public function get() {
-        
+        ;
     }
 
     public function put() {
-        
+        ;
     }
-    
+
 }
