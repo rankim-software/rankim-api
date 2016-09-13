@@ -59,13 +59,13 @@ Tradução dos campos retornados na consulta das ofertas selecionadas do estoque
 ### Funções da API (modo sservidor)
 
 ##### $srv->query("SQL")
-Configura a SQL query a ser executa pela API. 
+Configura a SQL query a ser executa pela API
 
 ##### $srv->run()
 Inicializa o servidor, validando os campos e compila os dados para exibição (formato JSON)
 
 ##### $srv->getError()
-Mostra os erros da inialização do servidor
+Mostra os erros de execução da API
 
 ### Atualização regular
 
