@@ -41,7 +41,7 @@ if ($srv->getError()) {
   
 ~~~~
 
-A API deverá ser instalada em uma rota pública acessível via **URL**.
+A API deverá ser instalada em uma rota pública acessível via **URL**. Após validação com a função "$srv->run()", o endereço da API instalada deverá ser configurado na *plataforma Rankim*, em integrações.
 
 ### Parâmetro da instância da classe
 
@@ -55,6 +55,17 @@ Tradução dos campos retornados na consulta das ofertas selecionadas do estoque
 | db_pass       | string       | senha do usuário do banco de dados
 | db_name       | string       | nome do banco de dados
 | db_port       | integer      | porta de conexão* (opcional)
+
+### Funções da API (modo sservidor)
+
+##### $srv->query("SQL")
+Configura a SQL query a ser executa pela API. 
+
+##### $srv->run()
+Inicializa o servidor, validando os campos e compila os dados para exibição (formato JSON)
+
+##### $srv->getError()
+Mostra os erros da inialização do servidor
 
 ### Atualização regular
 
