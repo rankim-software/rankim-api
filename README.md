@@ -45,7 +45,7 @@ A API deverá ser instalada em uma rota pública acessível via **URL**. Após v
 
 ### Parâmetros da instância da classe
 
-Tradução dos campos retornados na consulta das ofertas selecionadas do estoque.
+Tradução dos parâmetros
 
 | campo         | tipo         |  descrição  |
 | ------------- | -------------| ------------- |
