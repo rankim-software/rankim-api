@@ -1,4 +1,5 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteRule (.*) public/example.php [NC]
+    RewriteRule client(.*) public/client.php [NC]
+    RewriteRule server(.*) public/server.php [NC]
 </IfModule>
