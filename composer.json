@@ -3,6 +3,7 @@
     "description": "API de integracao com a plataforma Rankim",
     "type": "library",
     "license": "MIT",
+    "version": "1.1.2",
     "authors": [
         {
             "name": "phpenterprise",
