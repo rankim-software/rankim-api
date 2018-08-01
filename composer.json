@@ -2,9 +2,7 @@
     "name": "rankim-software/rankim-api",
     "description": "Api de integração Rankim (PHP)",
     "require": {
-        "php": ">=5.3.0",
-        "lib-curl": "^7.36",
-        "lib-openssl": "^1.0.1.7"
+    
     },
     "authors": [
         {
