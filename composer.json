@@ -1,20 +1,19 @@
 {
     "name": "rankim-software/rankim-api",
-    "description": "Api de integração Rankim (PHP)",
-    "require": {
-    
-    },
+    "description": "API de integracao com a plataforma Rankim",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Patrick Otto",
-            "email": "patrick@rankim.com.br"
+            "name": "phpenterprise",
+            "email": "patrick@phpenterprise.com"
         }
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "autoload": {
-        "psr-0": {
-            "Api": "src/Rankim/"
-        }
+    "require": {
+        "php": ">=5.3.0",
+        "lib-curl": "^7.36",
+        "lib-openssl": "^1.0.1.7"
     }
 }
