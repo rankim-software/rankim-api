@@ -15,7 +15,7 @@ var_dump($api->get('wallet'));
 // get one realty property
 var_dump($api->get('realty/123456'));
 
-// register new lead (contacct)
+// register new lead
 var_dump($api->put('lead', array(
             'name' => 'Jhon Connor',
             'email' => 'john@rankim.com.br',
