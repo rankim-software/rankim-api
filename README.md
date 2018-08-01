@@ -1,5 +1,5 @@
 # Api de integração Rankim (PHP)
-Integração com a plataforma imobiliária Rankim
+Integração com a plataforma de marketing e CRM Rankim
 
 [![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.svg?v=103)](https://opensource.org/licenses/GPL-3.0/) [![PHPPackages Rank](http://phppackages.org/p/smartdealer/sdapi/badge/rank.svg)](http://phppackages.org/p/rankim-software/rankim-api) ![](https://reposs.herokuapp.com/?path=rankim-software/rankim-api&style=flat)
 
