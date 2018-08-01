@@ -65,6 +65,9 @@ Lista os imóveis da conta do usuário (retorno array)
 ##### $api->get('realty/123')
 Trás informações de um imóvel específico na carteira (detalhes, imagens e características)
 
+##### $api->put('lead', array())
+Registra uma lead na sua conta (com ou sem campanha)
+
 ~~~.php
 $api->put('lead', array(
     'name' => 'nome do lead',
@@ -73,7 +76,6 @@ $api->put('lead', array(
     'campaign' => 1 (opcional)
 ))
 ~~~~
-Registra leads na plataforma Rankim
 
 ##### $api->getError()
 Mostra os erros de execução da API
