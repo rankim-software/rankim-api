@@ -38,7 +38,7 @@ class Api {
         // set params
         $params += array(
             'id' => $this->user_id,
-            'token' => $this->user_token
+            'access_token' => $this->user_token
         );
 
         // set curl
@@ -64,7 +64,7 @@ class Api {
         // set params
         $params += array(
             'id' => $this->user_id,
-            'token' => $this->user_token
+            'access_token' => $this->user_token
         );
 
         // set curl
@@ -91,7 +91,7 @@ class Api {
         // set params
         $params += array(
             'id' => $this->user_id,
-            'token' => $this->user_token
+            'access_token' => $this->user_token
         );
 
         // set curl
