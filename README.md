@@ -26,7 +26,7 @@ include '../src/autoload.php';
 
 OR
 
-// for use composer
+// if use composer (autoload)
 require __DIR__ . '/vendor/autoload.php';
 
 // instance API
