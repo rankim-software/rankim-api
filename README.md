@@ -21,20 +21,28 @@ Direitos reservados à Rankim Soluções de Software Ltda.
 
 ~~~.php
 
- // include autoload (not needed by Composer)
+// include autoload (direct, not needed by Composer)
 include '../src/autoload.php';
+
+OR
+
+// for use composer
+require __DIR__ . '/vendor/autoload.php';
 
 // instance API
 $api = new \Rankim\Api('{id}', '{access_token}');
 
 // get real estate listing
-$data = $api->get('wallet')
+$data = $api->get('wallet');
 
 // check errors
 if ($api->getError()) {
     var_dump($api->getError());
 }
-  
+
+// the output (array)
+var_dump($data);  
+
 ~~~~
 
 ### Parâmetros da instância da classe
