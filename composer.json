@@ -12,7 +12,7 @@
             "email": "patrick@rankim.com.br"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "beta",
     "autoload": {
         "psr-0": {
             "Api": "src/Rankim/"
