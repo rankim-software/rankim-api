@@ -13,11 +13,11 @@ Direitos reservados à Rankim Soluções de Software Ltda.
 * Extensões do PHP "php_curl" e "php_openssl"
 * Apache 2.2+
 
-### Use via composer
+### Via composer
 
     composer require rankim-software/rankim-api
 
-### API em modo servidor
+### Instância da API
 
 ~~~.php
 
